@@ -1,0 +1,69 @@
+/* Project section styling */
+
+.main-title{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 30px;
+  letter-spacing: 3px;
+}
+
+.p-image1{
+  width: 30%;
+  margin: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.9);
+}
+.p-image1:hover {
+  transform: scale(1.1);
+}
+
+.p-image2{
+  width: 15%;
+  margin: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.9);
+}
+.p-image2:hover {
+  transform: scale(1.1);
+}
+
+.p-image3{
+  width: 30%;
+  margin: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.9);
+}
+.p-image3:hover {
+  transform: scale(1.1);
+}
+
+.p-image4{
+  width: 30%;
+  margin: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.9);
+}
+.p-image4:hover {
+  transform: scale(1.1);
+}
+
+.project-head{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 40px;
+}
+
+.p-description{
+  font-weight: lighter;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: justify;
+  margin: 30px;
+}
+.p-sec{
+  text-align: center;
+  
+}

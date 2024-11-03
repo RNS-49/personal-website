@@ -1,0 +1,88 @@
+/*Navbar section styling*/
+
+
+.navbar{
+  background-color: whitesmoke;
+  
+}
+.icon{
+  width: 6%;
+}
+.fa-burger{
+  color: black;
+  
+}
+.fa-burger:hover{
+  color: orange;
+}
+
+.nav-section{
+  position: relative;
+  margin: -15px;
+}
+.nav-link{
+  margin-left: 80px;
+}
+.contact{
+  margin-left: 600px;
+}
+
+
+/*Mobile and tablet optimization*/
+
+@media (max-width:600px){
+  .navbar{
+    background-color: whitesmoke;
+  }
+  .icon{
+    width: 20%;
+  }
+  .fa-burger{
+    color: black;
+    
+  }
+  .fa-burger:hover{
+    color: orange;
+  }
+  .nav-section{
+    position: relative;
+    margin: -15px;
+  }
+  .nav-link{
+    margin-left: 28px;
+    font-size: 20px;
+  }
+  .contact{
+    margin-left: 28px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (width:768px){ 
+
+  .navbar{
+    background-color: whitesmoke;
+  }
+  .icon{
+    width: 20%;
+  }
+  .fa-burger{
+    color: black;
+    font-size: 40px;
+  }
+  .fa-burger:hover{
+    color: orange;
+  }
+  .nav-section{
+    position: relative;
+    margin: -15px;
+  }
+  .nav-link{
+    margin-left: 50px;
+    font-size: 25px;
+  }
+  .contact{
+    margin-left: 50px;
+    margin-bottom: 25px;
+  }
+}

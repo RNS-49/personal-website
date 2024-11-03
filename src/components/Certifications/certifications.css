@@ -1,0 +1,122 @@
+/* Certificates section styling */
+
+
+.certificate-head{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+}
+
+.certificate-sec{
+  text-align: center;
+  
+}
+
+
+.card{
+  
+  width: 300px;
+  height: 500px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px wheat;
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.9);
+  
+  transition: transform 0.3s;
+ 
+}
+
+.certificate-des{
+  text-align: justify;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.certificates{
+  border-radius: 10px;
+}
+
+
+
+/* optimizing for tablet and mobile */
+
+@media (max-width:600px){
+  
+.certificate-head{
+  margin-top: 50px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.certificate-sec{
+  display: flex;
+  
+}
+
+.certificate-des{
+  text-align: justify;
+}
+
+.card{
+  width: 280px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px wheat;
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.9);
+  transition: transform 0.3s;
+  
+ 
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.certificates{
+  border-radius: 10px;
+}
+}
+
+@media(width:768px){
+  .certificate-head{
+    margin-top: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .certificate-sec{
+    display: flex;
+   
+    
+  }
+  
+  .card{
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px wheat;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.9);
+    transition: transform 0.3s;
+    
+   
+  }
+
+  .certificate-des{
+    text-align: justify;
+  }
+  .card:hover {
+    transform: scale(1.1);
+  }
+  .certificates{
+    border-radius: 10px;
+  }
+}
